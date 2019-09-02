@@ -17,6 +17,7 @@ public class Ajax3Servlet extends HttpServlet {
         String age = request.getParameter("age");
         out.println("name="+username+",age="+age);
         out.close();
+        //修改了
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
